@@ -55,6 +55,7 @@ hardbtn.addEventListener("click", function() {
 	for(var i = 0; i < squares.length; i++) {
 		if(colors[i]) {
 			squares[i].style.background = colors[i];
+			squares[i].style.display = "block";
 		}
 		else {
 			squares[i].style.display = "none";
